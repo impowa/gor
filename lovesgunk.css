@@ -4,12 +4,16 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
 h1
 {font-size: xx-large;}
 h1 
-{color: firebrick;}
+{color: ;}
 
 p 
 {font-family: Verdana, Geneva, Tahoma, sans-serif;}
-p{color:firebrick}
+p{color:}
 
 
 a {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 a {color:powderblue}
+
+h2 {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h2 {color: blueviolet;}
+
