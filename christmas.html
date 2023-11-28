@@ -30,9 +30,6 @@
 
 <script>
     document.addEventListener('click', () => {
-      window.open('https://dvcks.xyz/pop/pop.html','', 'width=750,height=600');
-      win.moveTo(500,100)
-      win.resizeTo(750,600)
     })
     </script>
 
@@ -40,7 +37,7 @@
         document.addEventListener("click", playAudioOnce);
       
         function playAudioOnce() {
-          var audio = new Audio('https://dvcks.xyz/pop/bgm.mp3');
+          var audio = new Audio('santa.mp3');
           audio.play();
           document.removeEventListener("click", playAudioOnce);
         }
