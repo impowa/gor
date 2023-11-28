@@ -20,35 +20,32 @@
 
 <style>
         body {
-  background-image: url('Sweet.gif');
+  background-image: url('giphy.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
     </style>
 
-
 <script>
     document.addEventListener('click', () => {
-    function Funky() {
-  var audio = new Audio('goro.gay/santa.mp3');
-    audio.play();
-    openBouncingPopup()
-    FIRE()
-  ;
+      window.open('https://dvcks.xyz/pop/pop.html','', 'width=750,height=600');
+      win.moveTo(500,100)
+      win.resizeTo(750,600)
     })
-        </script>
-  
+    </script>
+
 <script>
-    function Funky() {
-  var audio = new Audio('Funky.mp3');
-    audio.play();
-    openBouncingPopup()
-    FIRE()
-  ;
-    }
-            </script>
-<center><img src='giphy.gif'><img src='santa.gif'</center>
+        document.addEventListener("click", playAudioOnce);
+      
+        function playAudioOnce() {
+          var audio = new Audio('https://dvcks.xyz/pop/bgm.mp3');
+          audio.play();
+          document.removeEventListener("click", playAudioOnce);
+        }
+      </script>  
+
+<center><img src='santa.gif'</center>
   
 </body>
 </html>
