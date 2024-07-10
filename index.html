@@ -1,162 +1,90 @@
+<!DOCTYPE html>
 <head>
     <script>
-    document.addEventListener('click', () => {
-                fire = window.open('', '', 'width=210,height=115');
-                fire.document.write('<img src="https://dvcks.xyz/Taco/FIRE.gif" width=200,height=100 >');
-                win.moveTo(500,500)
-    })
+        addEventListener("click", wii);
+
+       function wii() {
+        var audio = new Audio('click.wav');
+         audio.play();
+          }
         </script>
 
-    <script language="JavaScript">
-        var space = " ";
-        var speed = "60";
-        var pos = 0;
-        var msg = "// C00l MONEY $WAG ";
-        function Scroll()
-        {
-        document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
-        pos++;
-        if (pos > msg.length) pos = 0;
-        window.setTimeout("Scroll()", speed); 
+<body style="background-color:white;">
+
+    <link rel="icon" type="image/x-icon" href="zoe.ico">
+    <title>Goro's Cool Site!</title>
+
+    <style>
+        .rainbow-text {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 25px;
         }
-        Scroll();
-        </script>
-        <link rel="icon" type="image/x-icon" href="manwii.ico">
-</head>
-
-<script>
-    var audio = document.getElementById("Audio");
-    audio.volume = 0.1;
-  </script>
-
+        .rainbow-text .block-line > span {
+            display: inline-block;
+        }
+        span.block-line > span {
+            background-image: linear-gradient(90deg,#ff0000,#ff2b00,#ff5500,#ff8000,#ffaa00,#ffd500,#ffff00,#d4ff00,#aaff00,#80ff00,#55ff00,#2bff00,#00ff00,#00ff2b,#00ff55,#00ff80,#00ffaa,#00ffd5,#00ffff,#00d4ff,#00aaff,#007fff,#0055ff,#002bff,#0000ff,#2a00ff,#5500ff,#7f00ff,#aa00ff,#d400ff,#ff00ff);
+            color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        
+        .imgContainer{
+align-items: center;
+}
+        </style>
+    <style>
+        body {
+          background-image: url('cardboard.png');
+        }
+        </style>
+        <style>
+            body{
+            cursor:url("Wii Cursor.cur"), auto;
+            
+            }
+            </style>
 </head>
 
 <body>
-    <style>
-        body {
-  background-image: url('Sweet.gif');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-    </style>
-    
-    <center>
-       
-        <style>
-            .rainbow-text {
-                font-family: Arial;
-                font-weight: bold;
-                font-size: 100px;
-            }
-            .rainbow-text .block-line > span {
-                display: inline-block;
-            }
-            span.block-line > span {
-                background-image: linear-gradient(90deg,#ff0000,#ff2b00,#ff5500,#ff8000,#ffaa00,#ffd500,#ffff00,#d4ff00,#aaff00,#80ff00,#55ff00,#2bff00,#00ff00,#00ff2b,#00ff55,#00ff80,#00ffaa,#00ffd5,#00ffff,#00d4ff,#00aaff,#007fff,#0055ff,#002bff,#0000ff,#2a00ff,#5500ff,#7f00ff,#aa00ff,#d400ff,#ff00ff);
-                color: #0000;
-                -webkit-background-clip: text;
-                background-clip: text;
-            }
-            
-            .imgContainer{
-   align-items: center;
-}
-            </style>
+   
 
-        <div class="rainbow-text" style="text-align: center;">
-            <span class="block-line"><span>sandwich</span></span>
-        </div>
-       
-
-
-        <br>
-<br>
-<br>
-<Br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-<br>
-<br>
-<Br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-        <button onclick="Funky()">PRESS TO GET FUNKY</button>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-        <script>
-    function Funky() {
-  var audio = new Audio('Funky.mp3');
-    audio.play();
-    openBouncingPopup()
-    FIRE()
-  ;
-    }
-            </script>
-        <script>
-
-            let popup;
-        let x = 0;
-        let y = 0;
-        let xDirection = 1;
-        let yDirection = 1;
-
-        function openBouncingPopup() {
-            if (!popup || popup.closed) {
-                popup = window.open('', '', 'width=750,height=600');
-                popup.document.write('<img src="https://dvcks.xyz/Taco/Taco.gif" width=700,height=550 >');
-
-                function movePopup() {
-                    x += xDirection;
-                    y += yDirection;
-
-                    // Check collision with screen borders
-                    if (x + popup.innerWidth > screen.availWidth || x < 0) {
-                        xDirection *= -1;
-                    }
-
-                    if (y + popup.innerHeight > screen.availHeight || y < 0) {
-                        yDirection *= -1;
-                    }
-
-                    popup.moveTo(x, y);
-                    requestAnimationFrame(movePopup);
-                }
-
-                // Start auto-moving the popup
-                movePopup();
-            } else {
-                popup.focus();
-            }
-        }
-</script>
-
-<div class="imgContainer">
-    <div class="imgContainer">
-        <a href="https://goro.gay/christmas" target="_blank"> <img src="present.png" alt="gift!!"></a> 
+    <marquee behavior="scroll" direction="right" scrollamount="12">Goro's Cool Site For Cool People</marquee>
+    <div class="rainbow-text" style="text-align: center;">
+        <span class="block-line"><span>welcome to my super cool epic sauce site for super cool people</span></span>
     </div>
-    <div class="imgContainer">
-        <a href="https://goro.gay/lovesgunk" target="_blank"> <img src="gunk.png" alt="love to death"></a> 
-    </div>
-  
 
-    </center>
-    
 </body>
-
-
+<br>
+<p>
+    <center> 
+        <a href="https://www.goro.gay/">Main Page!</a><a href="hhttps://www.youtube.com/channel/UCzo_N4qdkz2qSb2czvbPm5A"></a>
+    </center>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p> <center> 
+   <b>I'm twiddling my fingers uhuhuhuhuhu</b>
+</center></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=165683&s=1' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div>
