@@ -11,8 +11,21 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <body style="background-color:white;">
 
-
-    <title>Goro's Cool Site!</title>
+    <script language="JavaScript">
+        var space = " ";
+        var speed = "80";
+        var pos = 0;
+        var msg = "// G0R0'$ C00L S1T3 ";
+        function Scroll()
+        {
+        document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+        pos++;
+        if (pos > msg.length) pos = 0;
+        window.setTimeout("Scroll()", speed); 
+        }
+        Scroll();
+        </script>
+ 
 
     <style>
         .rainbow-text {
@@ -67,9 +80,11 @@ align-items: center;
 <br>
 <br>
 <br>
-<p> <center> 
+<p> 
+    <center> 
    <b>HEAVY CONSTRUCTION (BE DONE SOON)</b>
-</center></p>
+    </center>
+</p>
 <br>
 <br>
 <br>
